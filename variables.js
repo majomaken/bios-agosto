@@ -20,3 +20,5 @@ console.log("Resta", resta);
 console.log("Multiplicacion", multi);
 console.log("Division", division);
 console.log("Modulo", modulo);
+
+// Otro cambio hecho por miguel
