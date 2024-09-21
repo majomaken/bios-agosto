@@ -1,0 +1,15 @@
+header {
+  background-color: #d5492b;
+}
+
+main {
+  background-color: #c687d3;
+}
+
+main article img {
+  width: 270px;
+}
+
+footer {
+  background-color: darkcyan;
+}
