@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", system-ui;
+  background-color: #3E7213;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  text-align: center; /* Centrar el texto horizontalmente */
+}
+
+.border {
+  border: 15px dashed #24b7df;
+  padding: 24px;
+  margin: 8px;
+}
+
+.main-title {
+  color: #24b7df;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-social {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-social a {
+  font-size: 1.5rem;
+}
+
+
+.footer-social a:hover {
+  color: #d91130;
+}
