@@ -1,0 +1,18 @@
+.wrapper-locations {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 24px;
+}
+
+.location-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #24b7df;
+}
+
+.location-card a:hover{
+    color: #dd1034;
+}

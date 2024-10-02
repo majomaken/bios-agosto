@@ -1,0 +1,18 @@
+.wrapper-episodes {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 24px;
+}
+
+.episode-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #24b7df;
+}
+
+.episode-card a:hover{
+    color: #dd1034;
+}
