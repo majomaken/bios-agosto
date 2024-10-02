@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Importación de la fuente Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Importación de librería de iconos fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick and Morty Front</title>
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/global.css" />
-    <link rel="stylesheet" href="./src/css/home/home.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="src/css/reset-style.css">
+    <link rel="stylesheet" href="src/css/home/home.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Importación de librería de iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+</head>
+<body>
     <header>
-      <nav class="container-menu">
-        <ul
-          class="main-menu border"
-          id="main-menu"
-          aria-label="main navigation"
-        ></ul>
-      </nav>
+    <nav class="container-menu">
+        <ul id="main-menu" class="main-menu border" aria-label="main navigation">
+            <!-- <img src="../assets/img/rick-morty-critica.webp" alt="Rick and Morty Critica"> -->
+        </ul>
+    </nav>
     </header>
     <main class="main-content border">
-      <h1 class="main-title">Rick and Morty Front</h1>
-      <div class="wrapper-img">
-        <img class="main-img" alt="Portada de Rick and Morty" src="./src/assets/img/rickjp.jpg" />
-        <img class="main-img" alt="Portada de Rick and Morty Season 1" src="./src/assets/img/season1.webp" />
-        <img class="main-img" alt="Portada de Rick and Morty Season 2" src="./src/assets/img/season2.webp" />
-        <img class="main-img" alt="Portada de Rick and Morty Season 3" src="./src/assets/img/season3.jpg" />
-      </div>
+        <h1 class="main-title">Rick and Morty Front</h1>
+        <div class="wrapper-img">
+            <img class="main-img" alt="Rick and Morty" src="./src/assets/img/Rick_y_morty-S1.webp"/>
+            <img class="main-img" alt="Rick and Morty" src="./src/assets/img/Rick_y_morty-S2.webp"/>
+            <img class="main-img" alt="Rick and Morty" src="./src/assets/img/Rick_y_morty-S3.webp"/>
+        </div>
     </main>
     <footer class="border">
-      <div class="footer-social">
-        <a href="https://github.com/majomaken" target="_blank">
-          <i class="fa-brands fa-github-alt"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/miguel-angel-jimenez-ochoa/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </div>
-      <span
-        >💻 by majomaken <br />
-        © 2022</span
-      >
+        <div>
+            <div class="footer-social">
+                <a href="https://github.com/egonella" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="footer-social">
+                <! -- Este linkedin no existe, pero puede ser usado -->
+                <a href="https://www.linkedin.com/in/egonella" target="_blank"> 
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <span>💻by egonella <br> &copy 2024 </span>
+        <span>&copy; Todos los derechos afanados</span>
     </footer>
-    <script src="./src/js/home/home.js"></script>
-  </body>
+    <script src="../rick-morty-front/src/js/home/home.js"></script>
+</body>
 </html>
