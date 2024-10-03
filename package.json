@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "axios": "^1.7.7"
+  },
+  "dependencies": {
+    "sass": "^1.79.4"
   }
 }

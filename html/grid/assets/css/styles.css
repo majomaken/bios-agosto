@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header header" "aside main" "footer footer";
+  height: 100vh;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  background-color: rgb(222, 51.1666666667, 17);
+  padding: 0 12%;
+  grid-area: header;
+}
+.container .header .menu {
+  display: flex;
+  gap: 1rem;
+}
+.container .header .menu .links {
+  color: #FFFFFF;
+  text-decoration: #670000 wavy underline;
+}
+.container .header .menu .links:hover {
+  color: #EF4343;
+}
+.container #aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #670000;
+  grid-area: aside;
+}
+.container #aside .links {
+  color: #FFFFFF;
+  text-decoration: #EF4343 wavy underline;
+}
+.container #aside .links:hover {
+  color: #EF4343;
+}
+.container .main {
+  background-color: #EF4343;
+  grid-area: main;
+}
+.container .main .button {
+  background-color: #DE1111;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.container .main .button:hover {
+  background-color: #851c9a;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.container #aside h2 {
+  color: #FFFFFF;
+}
+.container #aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container .footer {
+  background-color: #DE1111;
+  grid-area: footer;
+}
+
+/* Diseño para pantallas grandes (Desktop - Escritorio) */
+@media (min-width: 768px) {
+  .container {
+    grid-template-areas: "header header" "aside main" "footer footer";
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .container {
+    grid-template-areas: "header header" "main main" "aside aside" "footer footer";
+  }
+}
+@media (max-width: 479px) {
+  .container {
+    grid-template-areas: "header" "main" "aside" "footer";
+  }
+  .header {
+    justify-content: center;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
