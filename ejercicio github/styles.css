@@ -1,0 +1,51 @@
+.background {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper-repo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    padding: 16px 0;
+    color: #000000;
+    font-weight: 1500;
+    font-family: fantasy system-ui;
+}
+header {
+    background-color: #661183;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    padding: 40px;
+}
+.tituloyBotones {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    background-color: #c687d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+footer {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.border {
+    border: 15px inset;#000
+    padding: 24px;
+    margin: 8px;
+}
